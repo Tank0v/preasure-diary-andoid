@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Blood Pressure Diary</string>
+
+    <string name="add_pressure_button_name">Add pressure</string>
+    <string name="edit_pressure_button_name">Edit pressure</string>
+    <string name="delete_pressure_button_name">Delete pressure</string>
+    <string name="check_statistics_button_name">Check statistics</string>
+
+    <string name="measurement_date_textview_text">Measurement date:</string>
+    <string name="measurement_date_button_text">Choose measurement date</string>
+    <string name="chosen_measurement_date_textview_text">Chosen</string>
+    <string name="measurement_time_textview_text">Measurement time:</string>
+    <string name="measurement_time_button_text">Choose measurement time</string>
+    <string name="chosen_measurement_time_textview_text">Chosen</string>
+    <string name="systolic_pressure_textview_text">Systolic pressure:</string>
+    <string name="systolic_pressure_edittext_hint">Enter systolic pressure</string>
+    <string name="diastolic_pressure_textview_text">Diastolic pressure</string>
+    <string name="diastolic_pressure_edittext_hint">Enter diastolic pressure</string>
+    <string name="pulse_textview_text">Pulse:</string>
+    <string name="pulse_edittext_hint">Enter pulse</string>
+    <string name="no_data_text">No data</string>
+    <string name="average_systolic_text">Avg syst.:</string>
+    <string name="average_diastolic_text">Avg diast.:</string>
+    <string name="average_pulse_text">Avg pulse.:</string>
+    <string name='min_systolic_text'>Min syst.:</string>
+    <string name='min_diastolic_text'>Min diast.:</string>
+    <string name='min_pulse_text'>Min pulse:</string>
+    <string name='max_systolic_text'>Max syst.:</string>
+    <string name='max_diastolic_text'>Max diast.:</string>
+    <string name='max_pulse_text'>Max pulse:</string>
+    <string name='start_date_text'>Start date:</string>
+    <string name='end_date_text'>End date:</string>
+    <string name='less_systolic_pressure_text'>Systolic pressure cannot be less than 40. </string>
+    <string name='exceed_systolic_pressure_text'>Systolic pressure cannot exceed 250. </string>
+    <string name='not_filled_systolic_pressure_text'>Systolic pressure should be filled. </string>
+    <string name='less_diastolic_pressure_text'>Diastolic pressure cannot be less than 20. </string>
+    <string name='exceed_diastolic_pressure_text'>Diastolic pressure cannot exceed 150. </string>
+    <string name='not_filled_diastolic_pressure_text'>Diastolic pressure field should be filled. </string>
+    <string name='less_pulse_text'>Pulse cannot be less than 30. </string>
+    <string name='exceed_pulse_text'>Pulse cannot exceed 200. </string>
+    <string name='not_filled_pulse_text'>Pulse field should be filled. </string>
+
+    <string name="morning_name_textview_text">Morning:</string>
+    <string name="day_name_textview_text">Day:</string>
+    <string name="evening_name_textview_text">Evening:</string>
+    <string name="night_name_textview_text">Night:</string>
+    <string name="full_day_name_textview_text">Full day:</string>
+
+    <string name="pressure_list_fragment_title">Pressure list</string>
+    <string name="new_pressure_fragment_title">New Pressure</string>
+    <string name="edit_pressure_fragment_title">Edit Pressure</string>
+    <string name="statistics_fragment_title">Statistics</string>
+</resources>

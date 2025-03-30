@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/measurement_date_time"
+        style="@style/ListItemPressureStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="" />
+    <TextView
+        android:id="@+id/systolic_pressure"
+        style="@style/ListItemPressureStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/measurement_date_time"
+        android:text="" />
+    <TextView
+        android:id="@+id/diastolic_pressure"
+        style="@style/ListItemPressureStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/systolic_pressure"
+        android:text="" />
+    <TextView
+        android:id="@+id/pulse"
+        style="@style/ListItemPressureStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diastolic_pressure"
+        android:text="" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/pressureListFragment">
+
+    <fragment
+        android:id="@+id/pressureListFragment"
+        android:name="com.example.android.bloodpressurediary.pressurelist.PressureListFragment"
+        android:label="PressureListFragment" >
+        <action
+            android:id="@+id/action_pressureListFragment_to_newPressureFragment"
+            app:destination="@id/newPressureFragment" />
+        <action
+            android:id="@+id/action_pressureListFragment_to_editPressureFragment"
+            app:destination="@id/editPressureFragment" />
+        <action
+            android:id="@+id/action_pressureListFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newPressureFragment"
+        android:name="com.example.android.bloodpressurediary.newpressure.NewPressureFragment"
+        android:label="NewPressureFragment" >
+        <action
+            android:id="@+id/action_newPressureFragment_to_pressureListFragment"
+            app:destination="@id/pressureListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editPressureFragment"
+        android:name="com.example.android.bloodpressurediary.editpressure.EditPressureFragment"
+        android:label="EditPressureFragment" >
+        <action
+            android:id="@+id/action_editPressureFragment_to_pressureListFragment"
+            app:destination="@id/pressureListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.android.bloodpressurediary.statistics.StatisticsFragment"
+        android:label="StatisticsFragment" />
+</navigation>
